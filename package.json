@@ -1,6 +1,6 @@
 {
   "homepage": "https://github.com/Greatoxy1/GreatOxy.web.git",
-  "name": "youtube-proxy",
+  "name": "GreatOxy.web",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
