@@ -1,12 +1,14 @@
 {
-  "homepage": "https://Greatoxy1.github.io/GreatOxy.web",
-  "name": "GreatOxy.web",
+  "homepage": "https://Greatoxy1.github.io/GreatOxy.com",
+  "name": "GreatOxy.com",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "predeploy": "npm run build",
       "deploy": "gh-pages -d build",
+        "postbuild": "cp dist/index.html dist/404.html",
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
